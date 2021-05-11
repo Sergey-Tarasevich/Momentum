@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/owfont-regular.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>momentum-more</title>
+</head>
+
+<body>
+    <time class="time"></time>
+
+
+    <span class="js-weather">weather</span>
+
+
+
+    <!--block weather2-->
+    <article class="weather">
+
+        <div class="weather-city">
+            <span class="city" contenteditable="true">Please Enter City</span>
+
+            <div class="temp">
+                <i class="weather-icon owf"></i>
+                <div class="temperature"></div>
+            </div>
+        </div>
+        <div class="weather-info">
+            <span class="error-city">city ​​is not correct</span>
+            <div class="weather-description"></div>
+            <div class="wind"></div>
+            <div class="humidity"></div>
+        </div>
+    </article>
+    <!--end block weather2-->
+
+
+
+
+    <h1>
+        <span class="greeting">UPS :( where is greeting?</span>
+        <span class="name" contenteditable="true"></span>
+    </h1>
+
+    <!--Focus-->
+
+    <h2>What Is Your Smile For Today?</h2>
+    <h2 class="focus" contenteditable="true"></h2>
+
+    <!--End focus-->
+
+    <button class="btn"></button>
+
+    <!--quotes-->
+    <div class="wrapper-quote">
+        <div class="btnQ"></div>
+        <figure class="quote">
+            <blockquote>
+                You were not born a winner, and you were not born a loser. You are what you make yourself be.
+            </blockquote>
+            <figcaption>
+                Lou Holtz
+            </figcaption>
+        </figure>
+    </div>
+    <!--end quotes-->
+
+
+    <!--block calendar-->
+    <div class="calendar-container">
+        <table class="calendar">
+            <thead>
+                <tr class="btn-wrap clearfix">
+                    <td>
+                        <label class="prev">
+                  &#60;
+                </label>
+                    </td>
+                    <td class="current-year-month" colspan="5"></td>
+                    <td>
+                        <label class="next">
+                  &#62;
+                </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sun">Sun</td>
+                    <td>Mon</td>
+                    <td>Tue</td>
+                    <td>Wed</td>
+                    <td>Thu</td>
+                    <td>Fri</td>
+                    <td class="sat">Sat</td>
+
+                </tr>
+            </thead>
+            <tbody class="calendar-body"></tbody>
+        </table>
+    </div>
+    <!--end block calendar-->
+
+
+
+    <script src="script.js"></script>
+    <script src="weather.js"></script>
+    <script src="weather2.js"></script>
+    <script src="calendar.js"></script>
+
+</body>
+
+</html>
